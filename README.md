@@ -97,7 +97,7 @@ conda activate /storage/panelan/conda/ebs
 python -m historical/historical_runner.py
 ```
 
-3.  Run the daily pipiline
+3.  Run the daily pipeline
 
 ```
 python historical/historical_runner.py
