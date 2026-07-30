@@ -1,0 +1,34 @@
+# Secrets
+secrets/
+**/secrets/
+*api-token*
+config.json
+
+# Python caches and junk 
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.Rhistory
+.streamlit/secrets.toml
+
+# Datasets and heavy results
+explore/data/
+results/
+explore/results/
+
+# Ignore heavy file extensions across the board
+*.xlsx
+*.jsonl
+*.csv
+*.log
+*.pdf
+*.tiff
+
+# Keep app configurations and source code
+!environment.yml
+!.streamlit/config.toml
+
+# Keep bundled UI metadata needed for Streamlit dashboard rendering
+!src/dashboard/country_centroids.csv
