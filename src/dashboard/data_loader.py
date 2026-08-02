@@ -39,7 +39,7 @@ from pymongo import MongoClient, DESCENDING
 #     )
 #     return df_alerts_mapped
 
-# MongoDB conncetion
+# MongoDB connection
 @st.cache_resource
 def get_mongo_collection():
     with open("secrets/config.json", "r", encoding="utf-8") as f:
