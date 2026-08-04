@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="LLMEpidemic Tracker" width="450">
+  <img src="assets/logo.png" alt="LLMEpidemic Tracker" width="350">
 </p>
 
 # LLMEpidemic Tracker
