@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="LLMEpidemic Tracker" width="450">
+</p>
+
 # LLMEpidemic Tracker
 
 An automated epidemic surveillance system designed to enhance the WHO **Epidemic Intelligence from Open Sources (EIOS)** system using [Qwen2.5-14B-Instruct-epi](https://huggingface.co/anjelinejeline/Qwen2.5-14B-Instruct-epi).
