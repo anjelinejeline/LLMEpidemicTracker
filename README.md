@@ -60,14 +60,14 @@ The daily production workflow operates according to the following pipeline:
 
 ## Repository structure 
 
-Due to repository size limits and confidentiality restrictions, all datasets and results are hosted on **Zenodo**:
 
-- **DOI:** `10.5281/zenodo.21701779`
+The **Joint Research Centre (JRC) of the European Commission** processes the source material for scientific research under the **text and data mining exception (Article 3) of Directive (EU) 2019/790**, where it has lawful access to the content. To comply with this legal framework and the licensing conditions governing the source material, the full datasets are hosted on **Zenodo** with **restricted access** rather than being distributed through this GitHub repository.
 
-- **Restricted Access Link:** [Click here to access files on Zenodo](https://zenodo.org/records/21701780?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjYyNzRlYWViLTYzY2UtNGJhYy1hYWM0LWQ2Mzk2ODE1MGYwYyIsImRhdGEiOnt9LCJyYW5kb20iOiI1OTE1ZGE5YWQ5ZDFlZDJjM2VkZThjNjAzN2RjNTU2ZSJ9.wVunfM65lEF0kx3QpT-XDfyjcjP6Hq9-lAXxU7m2kGTRSrISu3gcLHqwGUmC0JMkpxXGmcxP6rIUCwcEQzWx1Q)
+- **Restricted access link:** [Click here to access files on Zenodo](https://doi.org/10.5281/zenodo.21839384)
+
+## Repository structure 
 
 ```
-.
 ├── app.py                           # Streamlit application entry point
 ├── environment.yml                  # Conda environment configuration
 ├── historical/historical_runner.py  # Historical ingestion script
