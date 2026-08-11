@@ -81,7 +81,6 @@ dependencies:
       - datasets==3.4.1
       - debugpy==1.8.21
       - decorator==5.3.1
-      - deep-translator==1.11.4
       - defusedxml==0.7.1
       - depyf==0.18.0
       - detect-installer==0.1.0
