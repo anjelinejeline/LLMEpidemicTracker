@@ -8,6 +8,16 @@ from transformers import pipeline
 
 logger = logging.getLogger("wn_alert_logger")
 
+# Create only required HF cache dirs
+os.makedirs("/scratch/panelan/hf_cache", exist_ok=True)
+os.makedirs("/scratch/panelan/hf_cache/hub", exist_ok=True)
+
+
+# HuggingFace environment
+os.environ["HF_HOME"] = "/scratch/panelan/hf_cache"
+os.environ["HF_HUB_CACHE"] = "/scratch/panelan/hf_cache/hub"
+os.environ["HF_HUB_DISABLE_XET"] = "1"
+
 # Initialize local Hugging Face translation model once
 default_translator = pipeline(
     "translation",
