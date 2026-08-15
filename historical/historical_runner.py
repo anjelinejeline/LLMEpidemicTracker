@@ -73,7 +73,7 @@ def run_historical_backfill():
     
     # Define boundaries (Jan 1, 2018 -> 2 days before the scheduler/runner.py is launched)
     start_date = datetime(2018, 1, 1)
-    end_boundary = datetime(2026, 7, 26)
+    end_boundary = datetime(2026, 8, 13)
 
     # Define chunk size (30 days is ideal)
     chunk_size = timedelta(days=30)
