@@ -4,11 +4,9 @@
 
 # LLMEpidemic Tracker
 
-An automated epidemic surveillance system designed to enhance the WHO **Epidemic Intelligence from Open Sources (EIOS)** system using [Qwen2.5-14B-Instruct-epi](https://huggingface.co/anjelinejeline/Qwen2.5-14B-Instruct-epi).
+An automated epidemic surveillance system designed to enhance the WHO **Epidemic Intelligence from Open Sources (EIOS)** system using [Qwen2.5-14B-Instruct-epi](https://huggingface.co/anjelinejeline/Qwen2.5-14B-Instruct-epi), a domain-adapted model fine-tuned specifically for epidemiological text classification and structured information extraction related to West Nile Virus (WNV).
 
 The system retrieves daily news articles from EIOS, extracts structured epidemiological information, prioritizes outbreak alerts, stores the outputs in MongoDB, and presents the results via an interactive Streamlit dashboard.
-
-As a prototype, the system focuses specifically on West Nile virus (WNV) surveillance.
 
 ---
 
@@ -111,3 +109,17 @@ python historical/historical_runner.py
 ```
 streamlit run app.py
 ```
+
+## Licence 
+
+LLMEpidemic Tracker is licensed under the Apache License, Version 2.0.
+
+Copyright 2026 Angela Fanelli.
+
+You may obtain a copy of the Apache License, Version 2.0 at:
+
+https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the Apache License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the Apache License, Version 2.0 for the specific language governing permissions and limitations under the License.
+
+The Apache License applies to the original work developed as part of LLMEpidemic Tracker, unless otherwise stated. Third-party software, libraries, models, datasets, and external services used by the system remain subject to their respective licenses and terms.
