@@ -122,4 +122,4 @@ https://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software distributed under the Apache License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the Apache License, Version 2.0 for the specific language governing permissions and limitations under the License.
 
-The Apache License applies to the original work developed as part of LLMEpidemic Tracker, unless otherwise stated. Third-party software, libraries, models, datasets, and external services used by the system remain subject to their respective licenses and terms.
+The Apache License applies to the original work developed as part of LLMEpidemic Tracker. Third-party software, libraries, models, datasets, and external services used by the system remain subject to their respective licenses and terms.
